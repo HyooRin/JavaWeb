@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+  
+
+<!--signin.html 요청을 하면 화면을 그리는 담당 
+    1. 요청
+	form 태그 중 method 속성, action 속성에 대해 알아보고
+	name 값과 password 값을 보낼 수 있는 화면을 구성하시오
+	
+	2. 버튼을 누르면 연산처리를 할 servlet 객체를 만드시오.
+	method 방식 : post
+	서버 콘솔창에 넘겨 받은 데이터를 출력하시오 -->
+	
+	
+	<header>
+	 <h1>form 태그</h1>
+	</header>
+	<section>
+	 <form  action="servlet" method = "post" >
+	 <label>
+	 <p>name :
+	 <input type = "text" id = "name" name = "name">
+	 </p>
+	 <p>password :
+	 <input type = "password" id = "pwd" name = "password" >
+	 </p>
+	 </label>
+	 <button type = "submit">버튼</button>
+	 </form>
+	</section>
+	  
+	
+</body>
+</html>
