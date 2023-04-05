@@ -21,7 +21,7 @@ body {
 }
 
 /*
-  flex-grow 값은 flex item이 늘언라 수 있는 비율을 지정하며, 기본 값은 0 입니다.
+  flex-grow 값은 flex item이 늘어날 수 있는 비율을 지정하며, 기본 값은 0 입니다.
   flex-grow 속성을 사용하여 확장하는 크기 비율을 조절 할 수 있습니다. 
 */
 .page-container {

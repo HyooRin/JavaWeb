@@ -71,7 +71,6 @@ public class CategoryDAO implements IcategoryRepo{
 				try {
 					pstmt.close();
 				} catch (SQLException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
@@ -92,7 +91,6 @@ public class CategoryDAO implements IcategoryRepo{
 			pstmt.setInt(2, id);			
 			resultRowCount = pstmt.executeUpdate();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}finally {
 			try {
